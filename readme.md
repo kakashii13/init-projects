@@ -32,10 +32,16 @@ This script automates the process of creating and setting up a new project direc
    ```
    author='your author name'
    ```
+   
+   - You can configurate the path for your shell to execute the .sh everywhere
+
+   ```
+    export PATH="$PATH:"your .sh path"
+   ```
 
 2. **Run the Script**:
 
-   - Execute the script `init-project.sh` with the appropriate arguments.
+   - Execute the script `b-nodejs.sh` with the appropriate arguments.
 
 3. **Project Initialization**:
 
