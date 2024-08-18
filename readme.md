@@ -25,8 +25,13 @@ This script automates the process of creating and setting up a new project direc
    ```
    declare -A directories
    directories["your keyword"]="your directory"
-   ```
+    ```
+   eg: 
 
+   ```
+   directories["w"] = "/home/mycomputer/projects"
+   ```
+   
    - Also configurate you author name
 
    ```
@@ -36,7 +41,13 @@ This script automates the process of creating and setting up a new project direc
    - You can configurate the path for your shell to execute the .sh everywhere
 
    ```
-    export PATH="$PATH:"your .sh path"
+    export PATH="$PATH:your app.sh path"
+   ```
+   
+    e.g: 
+
+   ```
+   export PATH="$PATH:/home/mycomputer/workspace/init-projects"
    ```
 
 2. **Run the Script**:
